@@ -4,7 +4,6 @@ import Interface from "./interface/Interface";
 
 class App extends Component {
   getLocalStream() {
-    console.log("localStr")
 		navigator.mediaDevices.getUserMedia({video: false, audio: true}).then( stream => {
       console.log("stream",stream)
 			window.localStream = stream;
