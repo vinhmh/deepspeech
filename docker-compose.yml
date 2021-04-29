@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+    deepspeech-ui:
+        image: deepspeech-ui
+        container_name: deepspeech_ui
+        ports: 
+            - "3111:80"

@@ -15,21 +15,21 @@ class Input extends Component {
       <HashRouter>
         <div className="cardWrapper">
           <ul className="header">
-            <li><NavLink exact to="/">Upload</NavLink></li>
-            <li><NavLink to="/record">Record</NavLink></li>
-            <li><NavLink to="/realtime">Realtime</NavLink></li>
+            <li><NavLink exact to="/">Realtime</NavLink></li>
+            {/* <li><NavLink to="/record">Record</NavLink></li>
+            <li><NavLink to="/realtime">Realtime</NavLink></li> */}
           </ul>
           <div className="content">
-            <Route
+            {/* <Route
               exact path="/"
               render={() => <Upload {...this.props} /> }
             />
             <Route
               path="/record"
               render={() => <Record {...this.props} /> }
-            />
+            /> */}
             <Route
-              path="/realtime"
+              path="/"
               render={() => <Realtime {...this.props} /> }
             />
           </div>
