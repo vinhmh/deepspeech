@@ -1,3 +1,6 @@
-/node_modules
-Readme.md
-deepspeech-0.9.3*
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore

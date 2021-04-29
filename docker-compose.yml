@@ -1,7 +1,12 @@
 version: "3.0"
 services:
     deepspeech-ui:
-        image: deepspeech-ui
+        image: abc
         container_name: deepspeech_ui
         ports: 
             - "3111:80"
+    deepspeech-sever:
+        image: deepspeech-server
+        container_name: deepseech-sever
+        ports: 
+            - "4000:4000"
